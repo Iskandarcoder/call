@@ -18,8 +18,7 @@ class AppAsset extends AssetBundle
         'css/core.css',
         'css/components.css',
         'css/colors.css',
-    ];
-    public $js = [
+        //js
         'js/plugins/loaders/pace.min.js',
         //'js/core/libraries/jquery.min.js',
         'js/core/libraries/bootstrap.min.js',
@@ -29,6 +28,8 @@ class AppAsset extends AssetBundle
         'js/core/app.js',
         'js/pages/datatables_basic.js',
         'js/pages/form_bootstrap_select.js',
+    ];
+    public $js = [
         'js/main.js',
 
     ];
