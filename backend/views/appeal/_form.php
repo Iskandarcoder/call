@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Url;
 use backend\models\ListAppeal;
 use backend\models\Country;
 use backend\models\Region;
@@ -14,7 +15,7 @@ use kartik\select2\Select2;
 /* @var $model backend\models\Appeal */
 /* @var $form yii\widgets\ActiveForm */
 
-
+$lang = Yii::$app->language;
 
 $city = [];
 if ($model->country_id) {
